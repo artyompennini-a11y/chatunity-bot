@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://herokuapp.com" alt="Punisher Bot Title" />
+  <img src="https://herokuapp.com💀+THE+PUNISHER-BOT+💀;GIUSTIZIA+AUTOMATIZZATA;POTENZA+SENZA+LIMITI" alt="Punisher Bot Title" />
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://herokuapp.com" alt="Status SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=25&pause=800&color=FFFFFF&center=true&vCenter=true&width=600&height=60&lines=STATUS:+OPERATIVO+💀;CORE:+PUNISHER+ENGINE+⚙️;DEV:+ARTY" alt="Status SVG" />
 </p>
 
 ---
@@ -66,13 +66,13 @@
   </a>
 </p>
 
-* **Sviluppatore:** ARTY
-* **Numero Diretto:** [+39 320 603 2199](https://wa.me)
+* **𝚂𝚟𝚒𝚕𝚞𝚙𝚙𝚊𝚝𝚘𝚛𝚎:** ARTY
+* **𝙽𝚞𝚖𝚎𝚛𝚘 𝙳𝚒𝚛𝚎𝚝𝚝𝚘:** [+39 320 603 2199](https://wa.me)
 
 ---
 
 <p align="center">
-  <img src="https://herokuapp.com" alt="Thanks" />
+  <img src="https://herokuapp.com+⭐;SI+VIS+PACEM+PARA+BELLUM" alt="Thanks" />
 </p>
 
 <p align="center">
