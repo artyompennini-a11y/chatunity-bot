@@ -59,7 +59,7 @@ E così, persino sotto il giudizio divino, fu concessa una possibilità di salve
     }
 };
 
-handler.command = ['punisci'];
+handler.command = /^(punisci)$/i;
 handler.group = true;
 handler.botAdmin = true;
 handler.owner = true;
