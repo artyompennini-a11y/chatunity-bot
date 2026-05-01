@@ -1,9 +1,9 @@
 <p align="center">
-<img src="https://ibb.co" alt="The Punisher-BoT">
+<img src="https://ibb.co" width="500" alt="The Punisher-BoT">
 </p>
 
-<h1 align="center">© THE PUNISHER-BOT 🤖</h1>
-<p align="center"><strong>Un bot WhatsApp d'élite: potenza, controllo e giustizia automatizzata.</strong></p>
+<h1 align="center">💀 THE PUNISHER-BOT 🤖</h1>
+<p align="center"><strong>Un sistema di automazione d'élite: potenza, controllo e giustizia automatizzata.</strong></p>
 
 <p align="center">
   <a href="https://whatsapp.com">
@@ -18,16 +18,16 @@
 
 ## 📌 Introduzione
 
-**The Punisher-BoT** è un sistema multifunzionale progettato per chi cerca il massimo della gestione chat e dell'intrattenimento. Con un'estetica ispirata a Frank Castle, questo bot garantisce stabilità e potenza in ogni comando.
+**The Punisher-BoT** è un bot multifunzionale progettato per chi cerca il massimo della gestione chat. Con un'anima dark e prestazioni elevate, è lo strumento definitivo per automatizzare il tuo WhatsApp.
 
 ---
 
 ## 🚀 Installazione su Termux
 
-### 1. Installazione Standard (Consigliata)
+### Procedura Rapida (Consigliata)
 
 1. Scarica [Termux](https://mediafire.com)
-2. Incolla i comandi qui sotto nel terminale:
+2. Incolla questo blocco unico di comandi nel terminale:
 
 ```bash
 termux-setup-storage && \
@@ -42,9 +42,9 @@ yarn start
 
 ---
 
-## 🕒 Rimani Online 24/7 con PM2
+## 🕒 Operatività 24/7 con PM2
 
-Per non far dormire mai il tuo bot su Termux, usa PM2:
+Mantieni il bot sempre attivo, anche se chiudi l'app:
 
 ```bash
 npm i -g pm2
@@ -55,36 +55,21 @@ pm2 logs
 
 ---
 
-## 🌐 Installazione su Windows/VPS/RDP
+## 📂 Risorse e Supporto
 
-1. Scarica i componenti necessari: **Git, NodeJS, FFmpeg e ImageMagick**.
-2. Esegui questi comandi nel terminale:
-   ```bash
-   git clone https://github.com
-   cd chatunity-bot
-   npm install
-   npm update
-   npm start
-   ```
+*   **Gruppo Operativo:** [Entra nel Gruppo](https://whatsapp.com)
+*   **Canale News:** [Segui il Canale](https://whatsapp.com)
+*   **Contatto Sviluppatore:** [+39 320 603 2199](https://wa.me)
+*   **Instagram Creatore:** [Segui Arty](https://instagram.com)
 
 ---
 
-## 📂 Risorse e Contatti
+## 🛡️ VPS Hosting
 
-- **Canale WhatsApp**: [Unisciti Qui](https://whatsapp.com)
-- **Gruppo Supporto**: [Entra nel Gruppo](https://whatsapp.com)
-- **Contatto Sviluppatore**: [+39 320 603 2199](https://wa.me)
-- **Instagram**: [Segui @arty.340](https://instagram.com)
+Hai bisogno di stabilità assoluta senza usare il tuo smartphone?
+Offriamo piani VPS ottimizzati per **The Punisher-BoT**, pronti all'uso e attivi 24/7.
 
----
-
-## 🛡️ VPS Punisher
-
-Hai bisogno di una soluzione professionale per tenere il bot online senza interruzioni e senza usare il telefono? 
-
-Offriamo piani VPS dedicati, già configurati e pronti all'uso.
-
-Per maggiori informazioni contatta il numero: **[393206032199](https://wa.me)**.
+Per informazioni e costi: [Contattaci qui](https://wa.me).
 
 ---
 
@@ -92,4 +77,4 @@ Per maggiori informazioni contatta il numero: **[393206032199](https://wa.me)**.
 
 © The Punisher-BoT. Tutti i diritti riservati.
 
-<p align="center"><strong>💀 Lascia una stella sul progetto se ti è stato utile! 💀</strong></p>
+<p align="center"><strong>💀 Lascia una stella su GitHub per supportare il progetto! 💀</strong></p>
