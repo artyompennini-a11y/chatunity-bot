@@ -18,7 +18,7 @@
 
 ## 📌 Introduzione
 
-**The Punisher-BoT** è un bot multifunzionale progettato per chi cerca il massimo della gestione chat. Con un'anima dark e prestazioni elevate, è lo strumento definitivo per automatizzare il tuo WhatsApp.
+**The Punisher-BoT** è un bot multifunzionale progettato per chi cerca il massimo della gestione chat. Con un'anima dark e prestazioni elevate, è lo strumento definitivo per automatizzare il tuo WhatsApp senza compromessi.
 
 ---
 
@@ -44,7 +44,7 @@ yarn start
 
 ## 🕒 Operatività 24/7 con PM2
 
-Mantieni il bot sempre attivo, anche se chiudi l'app:
+Mantieni il bot sempre attivo su Termux, anche se chiudi l'app:
 
 ```bash
 npm i -g pm2
@@ -61,15 +61,6 @@ pm2 logs
 *   **Canale News:** [Segui il Canale](https://whatsapp.com)
 *   **Contatto Sviluppatore:** [+39 320 603 2199](https://wa.me)
 *   **Instagram Creatore:** [Segui Arty](https://instagram.com)
-
----
-
-## 🛡️ VPS Hosting
-
-Hai bisogno di stabilità assoluta senza usare il tuo smartphone?
-Offriamo piani VPS ottimizzati per **The Punisher-BoT**, pronti all'uso e attivi 24/7.
-
-Per informazioni e costi: [Contattaci qui](https://wa.me).
 
 ---
 
