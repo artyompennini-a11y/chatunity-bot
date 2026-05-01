@@ -1,71 +1,84 @@
 <p align="center">
-<img src="https://ibb.co" width="500" alt="The Punisher-BoT">
+  <img src="https://ibb.co" width="500" alt="The Punisher-BoT" />
 </p>
 
-<h1 align="center">💀 THE PUNISHER-BOT 🤖</h1>
-<p align="center"><strong>Un sistema di automazione d'élite: potenza, controllo e giustizia automatizzata.</strong></p>
+<p align="center">
+  <img src="https://herokuapp.com💀+THE+PUNISHER-BOT+💀;GIUSTIZIA+AUTOMATIZZATA;POTENZA+SENZA+LIMITI" alt="Punisher Bot Title" />
+</p>
+
+<p align="center">
+  <img src="https://githubusercontent.com" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=25&pause=800&color=FFFFFF&center=true&vCenter=true&width=600&height=60&lines=STATUS:+OPERATIVO+💀;CORE:+PUNISHER+ENGINE+⚙️;DEV:+ARTY" alt="Status SVG" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://herokuapp.com" alt="Descrizione" />
+</p>
+
+**The Punisher-BoT** è l'arma definitiva per la gestione di WhatsApp. Un sistema d'élite progettato per eliminare il disordine nelle chat e offrire un controllo totale con un'estetica dark e aggressiva.
+
+* **💀 Core Punisher:** Basato su Node.js per una velocità di esecuzione letale.
+* **🛡️ Sicurezza Avanzata:** Protezione integrata contro i ban e gestione intelligente dei pacchetti.
+* **🔵 Design Cyber-Dark:** Interfaccia ottimizzata nei toni del nero e dell'azzurro.
+* **🚀 Stabilità Estrema:** Progettato per gestire carichi elevati senza rallentamenti.
+
+---
+
+<p align="center">
+  <img src="https://herokuapp.com" alt="Installazione" />
+</p>
+
+### 📱 INSTALLAZIONE RAPIDA (Mobile)
+*Copia e incolla i comandi per attivare il bot:*
+
+1.  **Preparazione:**
+    ```bash
+    termux-setup-storage && pkg update && pkg upgrade -y && pkg install git nodejs ffmpeg imagemagick yarn -y
+    ```
+2.  **Download e Avvio:**
+    ```bash
+    git clone https://github.com
+    cd chatunity-bot
+    yarn install
+    yarn start
+    ```
+
+---
+
+<p align="center">
+  <img src="https://herokuapp.com" alt="Staff" />
+</p>
 
 <p align="center">
   <a href="https://whatsapp.com">
-    <img src="https://shields.io" alt="Official Channel">
+    <img src="https://shields.io" alt="Canale" />
+  </a>
+  <a href="https://whatsapp.com">
+    <img src="https://shields.io" alt="Gruppo" />
   </a>
   <a href="https://instagram.com">
-    <img src="https://shields.io" alt="Instagram">
+    <img src="https://shields.io" alt="Instagram" />
   </a>
 </p>
 
----
-
-## 📌 Introduzione
-
-**The Punisher-BoT** è un bot multifunzionale progettato per chi cerca il massimo della gestione chat. Con un'anima dark e prestazioni elevate, è lo strumento definitivo per automatizzare il tuo WhatsApp senza compromessi.
+* **𝚂𝚟𝚒𝚕𝚞𝚙𝚙𝚊𝚝𝚘𝚛𝚎:** ARTY
+* **𝙽𝚞𝚖𝚎𝚛𝚘 𝙳𝚒𝚛𝚎𝚝𝚝𝚘:** [+39 320 603 2199](https://wa.me)
 
 ---
 
-## 🚀 Installazione su Termux
+<p align="center">
+  <img src="https://herokuapp.com+⭐;SI+VIS+PACEM+PARA+BELLUM" alt="Thanks" />
+</p>
 
-### Procedura Rapida (Consigliata)
+<p align="center">
+  <img src="https://githubusercontent.com" width="100%">
+</p>
 
-1. Scarica [Termux](https://mediafire.com)
-2. Incolla questo blocco unico di comandi nel terminale:
-
-```bash
-termux-setup-storage && \
-pkg update && pkg upgrade -y && \
-pkg install git nodejs ffmpeg imagemagick yarn -y && \
-cd ~ && \
-git clone https://github.com && \
-cd chatunity-bot && \
-yarn install && \
-yarn start
-```
-
----
-
-## 🕒 Operatività 24/7 con PM2
-
-Mantieni il bot sempre attivo su Termux, anche se chiudi l'app:
-
-```bash
-npm i -g pm2
-pm2 start index.js --name "Punisher-Bot"
-pm2 save
-pm2 logs
-```
-
----
-
-## 📂 Risorse e Supporto
-
-*   **Gruppo Operativo:** [Entra nel Gruppo](https://whatsapp.com)
-*   **Canale News:** [Segui il Canale](https://whatsapp.com)
-*   **Contatto Sviluppatore:** [+39 320 603 2199](https://wa.me)
-*   **Instagram Creatore:** [Segui Arty](https://instagram.com)
-
----
-
-## 📜 Licenza
-
-© The Punisher-BoT. Tutti i diritti riservati.
-
-<p align="center"><strong>💀 Lascia una stella su GitHub per supportare il progetto! 💀</strong></p>
+<p align="center">
+  <b style="color: #00CCFF;">© 2026 THE PUNISHER-BOT • Engineered by Arty</b>
+</p>
