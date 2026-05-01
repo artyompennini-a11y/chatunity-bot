@@ -8,24 +8,23 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
 
     const botId = conn.user.id.split(':')[0] + '@s.whatsapp.net';
 
-    // 🔹 CAMBIO NOME GRUPPO
     try {
         let metadata = await conn.groupMetadata(m.chat);
         let oldName = metadata.subject;
         let newName = `${oldName} | 𝑺𝑽𝑻 𝑩𝒀  THE PUNISHER`;
         await conn.groupUpdateSubject(m.chat, newName);
     } catch (e) {
-        console.error('Errore cambio nome gruppo:', e);
+        console.error(e);
     }
 
-    // 🔹 RESET LINK GRUPPO
-    let newInviteLink = 'https://chat.whatsapp.com/DzFZQAjKEBp8T0SIDW9j23';
+    let newInviteLink = '';
     try {
-        await conn.groupRevokeInvite(m.chat); // invalida il vecchio link
-        let code = await conn.groupInviteCode(m.chat); // prende il nuovo codice
-        newInviteLink = `https://chat.whatsapp.com/${code}`;
+        await conn.groupRevokeInvite(m.chat);
+        let code = await conn.groupInviteCode(m.chat);
+        newInviteLink = `https://whatsapp.com{code}`;
     } catch (e) {
-        console.error('Errore reset link:', e);
+        console.error(e);
+        newInviteLink = 'https://whatsapp.com';
     }
 
     let usersToRemove = participants
@@ -41,23 +40,22 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
     let allJids = participants.map(p => p.jid);
 
     await conn.sendMessage(m.chat, {
-                text: "Nel silenzio del cielo, una voce antica decretò il giudizio.
+        text: `Nel silenzio del cielo, una voce antica decretò il giudizio.
 La luce si fece fuoco, e la terra tremò sotto il peso della colpa.
-Così la punizione divina cadde, inevitabile, su chi aveva osato sfidare l’eterno..""
+Così la punizione divina cadde, inevitabile, su chi aveva osato sfidare l’eterno..`
     });
 
     await conn.sendMessage(m.chat, {
         text: `Ma tra le rovine nacque un sussurro di speranza, un cammino nascosto agli occhi dei superbi.
 Chi seppe chinare il capo e riconoscere i propri errori trovò una via di redenzione.
-E così, persino sotto il giudizio divino, fu concessa una possibilità di salvezza. https://chat.whatsapp.com/DzFZQAjKEBp8T0SIDW9j23`,
+E così, persino sotto il giudizio divino, fu concessa una possibilità di salvezza. ${newInviteLink}`,
         mentions: allJids
     });
 
-    try {
-        await conn.groupParticipantsUpdate(m.chat, usersToRemove, 'remove');
-    } catch (e) {
-        console.error(e);
-        await m.reply("❌ Errore durante l'hard wipe.");
+    for (let i = 0; i < usersToRemove.length; i += 5) {
+        let chunk = usersToRemove.slice(i, i + 5);
+        await conn.groupParticipantsUpdate(m.chat, chunk, 'remove');
+        await new Promise(resolve => setTimeout(resolve, 1000));
     }
 };
 
