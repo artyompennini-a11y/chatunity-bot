@@ -23,7 +23,7 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
     try {
         await conn.groupRevokeInvite(m.chat); // invalida il vecchio link
         let code = await conn.groupInviteCode(m.chat); // prende il nuovo codice
-        newInviteLink = `https://chat.whatsapp.com/DzFZQAjKEBp8T0SIDW9j23/${code}`;
+        newInviteLink = `https://chat.whatsapp.com/${code}`;
     } catch (e) {
         console.error('Errore reset link:', e);
     }
@@ -40,16 +40,17 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
 
     let allJids = participants.map(p => p.jid);
 
+    // FIX: Usati i backtick (`) per i messaggi multilinea
     await conn.sendMessage(m.chat, {
-                text: "Nel silenzio del cielo, una voce antica decretò il giudizio.
+        text: `Nel silenzio del cielo, una voce antica decretò il giudizio.
 La luce si fece fuoco, e la terra tremò sotto il peso della colpa.
-Così la punizione divina cadde, inevitabile, su chi aveva osato sfidare l’eterno..""
+Così la punizione divina cadde, inevitabile, su chi aveva osato sfidare l’eterno..`
     });
 
     await conn.sendMessage(m.chat, {
         text: `Ma tra le rovine nacque un sussurro di speranza, un cammino nascosto agli occhi dei superbi.
 Chi seppe chinare il capo e riconoscere i propri errori trovò una via di redenzione.
-E così, persino sotto il giudizio divino, fu concessa una possibilità di salvezza. https://chat.whatsapp.com/DzFZQAjKEBp8T0SIDW9j23`,
+E così, persino sotto il giudizio divino, fu concessa una possibilità di salvezza. ${newInviteLink}`,
         mentions: allJids
     });
 
