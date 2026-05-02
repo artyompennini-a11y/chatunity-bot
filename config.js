@@ -22,7 +22,7 @@ global.owner = [
   ['962770035395', 'ThePunisher', true],
   ['393206032199', 'Thepunisher', true],
   ['393784409415', 'Elixir', true],
-  ['xxxxxxxxxx'],
+  ['393501989497', 'Endy', true],
   ['xxxxxxxxxx']
 ];
 
